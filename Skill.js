@@ -117,10 +117,12 @@ class Skill {
     getSkillResultsMethod(inputArguments, context, callback) {
         this.logger.info("GetSkillResult is called.");
 
+        var _type = context.object.getResult.outputArguments._dataValue.value.value[0].dataType;
+        var _dtype = opcua.coerceNodeId(_type).value;
         const callMethodResult = {
             statusCode: opcua.StatusCodes.Good,
             outputArguments: [{
-                dataType: opcua.DataType.Int16,
+                dataType: _dtype,
                 value: this.call_result
             }]
         };

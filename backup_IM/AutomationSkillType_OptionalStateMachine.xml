@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UANodeSet LastModified="2020-07-17T18:50:31.619Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<UANodeSet LastModified="2020-05-17T11:47:57.036Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <NamespaceUris>
         <Uri>http://www.siemens.com/AutomationSkills</Uri>
     </NamespaceUris>
@@ -46,7 +46,7 @@
     </Aliases>
     <Extensions>
         <Extension>
-            <si:Generator Product="SiOME" Edition="Standard" Version="2.0.4"/>
+            <si:Generator Product="SiOME" Edition="Standard" Version="1.13.0-skills-beta"/>
         </Extension>
     </Extensions>
     <UADataType NodeId="ns=1;i=12" BrowseName="1:ControlCommandEnum">
