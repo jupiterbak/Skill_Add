@@ -15,9 +15,9 @@
     "author": "Jupiter Bakakeu",
     "license": "GPL-3.0",
     "dependencies": {
-        "node-opcua": "2.5.12",
+        "node-opcua": "^2.9.1",
         "node-yaml-config": "0.0.5",
-        "winston": "^3.2.1",
-        "xstate": "^4.9.1"
+        "winston": "^3.3.3",
+        "xstate": "^4.11.0"
     }
 }

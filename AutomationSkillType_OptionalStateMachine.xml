@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UANodeSet LastModified="2020-07-17T18:50:31.619Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<UANodeSet LastModified="2020-08-11T10:43:36.340Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions">
     <NamespaceUris>
         <Uri>http://www.siemens.com/AutomationSkills</Uri>
     </NamespaceUris>
@@ -15,6 +15,7 @@
         <Alias Alias="Float">i=10</Alias>
         <Alias Alias="DateTime">i=13</Alias>
         <Alias Alias="String">i=12</Alias>
+        <Alias Alias="ByteString">i=15</Alias>
         <Alias Alias="NodeId">i=17</Alias>
         <Alias Alias="LocalizedText">i=21</Alias>
         <Alias Alias="HasComponent">i=47</Alias>
@@ -23,6 +24,7 @@
         <Alias Alias="HasTypeDefinition">i=40</Alias>
         <Alias Alias="HasModellingRule">i=37</Alias>
         <Alias Alias="HasEncoding">i=38</Alias>
+        <Alias Alias="HasDescription">i=39</Alias>
         <Alias Alias="Enumeration">i=29</Alias>
         <Alias Alias="FromState">i=51</Alias>
         <Alias Alias="ToState">i=52</Alias>
@@ -2350,96 +2352,112 @@ Command.RemoteInterface[1].CmdValue = 400</uax:Text>
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1056</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=68" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1064</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultBinary" NodeId="ns=1;i=69" BrowseName="Default Binary">
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1035</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=70" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1058</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultBinary" NodeId="ns=1;i=74" BrowseName="Default Binary">
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1034</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=76" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1057</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultBinary" NodeId="ns=1;i=77" BrowseName="Default Binary">
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1038</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=78" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1059</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultBinary" NodeId="ns=1;i=79" BrowseName="Default Binary">
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1053</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=80" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1061</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultBinary" NodeId="ns=1;i=81" BrowseName="Default Binary">
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1054</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=82" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1062</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultBinary" NodeId="ns=1;i=83" BrowseName="Default Binary">
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1055</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=84" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1063</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultBinary" NodeId="ns=1;i=85" BrowseName="Default Binary">
         <DisplayName>Default Binary</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1039</Reference>
         </References>
     </UAObject>
     <UAObject SymbolicName="DefaultXml" NodeId="ns=1;i=86" BrowseName="Default XML">
         <DisplayName>Default XML</DisplayName>
         <References>
             <Reference ReferenceType="HasTypeDefinition">i=76</Reference>
+            <Reference ReferenceType="HasDescription">ns=1;i=1060</Reference>
         </References>
     </UAObject>
     <UAObject NodeId="ns=1;i=1002" BrowseName="1:IdleToExecute">
@@ -3489,5 +3507,204 @@ Command.RemoteInterface[1].CmdValue = 400</uax:Text>
             <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
             <Reference ReferenceType="HasModellingRule">i=78</Reference>
         </References>
+    </UAVariable>
+    <UAVariable DataType="ByteString" NodeId="ns=1;i=1004" BrowseName="1:TypeDictionary" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>TypeDictionary</DisplayName>
+        <Description>Collects the data type descriptions of http://www.siemens.com/AutomationSkills</Description>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">i=93</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=72</Reference>
+        </References>
+        <Value>
+            <uax:ByteString>PG9wYzpUeXBlRGljdGlvbmFyeSB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4bWxuczp0bnM9Imh0dHA6Ly93d3cuc2llbWVucy5jb20vQXV0b21hdGlvblNraWxscyIgRGVmYXVsdEJ5dGVPcmRlcj0iTGl0dGxlRW5kaWFuIiB4bWxuczpvcGM9Imh0dHA6Ly9vcGNmb3VuZGF0aW9uLm9yZy9CaW5hcnlTY2hlbWEvIiB4bWxuczp1YT0iaHR0cDovL29wY2ZvdW5kYXRpb24ub3JnL1VBLyIgVGFyZ2V0TmFtZXNwYWNlPSJodHRwOi8vd3d3LnNpZW1lbnMuY29tL0F1dG9tYXRpb25Ta2lsbHMiPgogICAgPG9wYzpJbXBvcnQgTmFtZXNwYWNlPSJodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvIi8+CiAgICA8b3BjOkVudW1lcmF0ZWRUeXBlIExlbmd0aEluQml0cz0iMzIiIE5hbWU9IkNvbnRyb2xDb21tYW5kRW51bSI+CiAgICAgICAgPG9wYzpFbnVtZXJhdGVkVmFsdWUgTmFtZT0iVW5kZWZpbmVkXzAiIFZhbHVlPSIwIi8+CiAgICAgICAgPG9wYzpFbnVtZXJhdGVkVmFsdWUgTmFtZT0iUmVzZXRfMSIgVmFsdWU9IjEiLz4KICAgICAgICA8b3BjOkVudW1lcmF0ZWRWYWx1ZSBOYW1lPSJTdGFydF8yIiBWYWx1ZT0iMiIvPgogICAgICAgIDxvcGM6RW51bWVyYXRlZFZhbHVlIE5hbWU9IlN0b3BfMyIgVmFsdWU9IjMiLz4KICAgICAgICA8b3BjOkVudW1lcmF0ZWRWYWx1ZSBOYW1lPSJIb2xkXzQiIFZhbHVlPSI0Ii8+CiAgICAgICAgPG9wYzpFbnVtZXJhdGVkVmFsdWUgTmFtZT0iVW5ob2xkXzUiIFZhbHVlPSI1Ii8+CiAgICAgICAgPG9wYzpFbnVtZXJhdGVkVmFsdWUgTmFtZT0iU3VzcGVuZF82IiBWYWx1ZT0iNiIvPgogICAgICAgIDxvcGM6RW51bWVyYXRlZFZhbHVlIE5hbWU9IlVuc3VzcGVuZF83IiBWYWx1ZT0iNyIvPgogICAgICAgIDxvcGM6RW51bWVyYXRlZFZhbHVlIE5hbWU9IkFib3J0XzgiIFZhbHVlPSI4Ii8+CiAgICAgICAgPG9wYzpFbnVtZXJhdGVkVmFsdWUgTmFtZT0iQ2xlYXJfOSIgVmFsdWU9IjkiLz4KICAgICAgICA8b3BjOkVudW1lcmF0ZWRWYWx1ZSBOYW1lPSJDb21wbGV0ZV8xMCIgVmFsdWU9IjEwIi8+CiAgICA8L29wYzpFbnVtZXJhdGVkVHlwZT4KICAgIDxvcGM6RW51bWVyYXRlZFR5cGUgTGVuZ3RoSW5CaXRzPSIzMiIgTmFtZT0iUHJvZHVjdGlvbk1haW50ZW5hbmNlTW9kZUVudW0iPgogICAgICAgIDxvcGM6RW51bWVyYXRlZFZhbHVlIE5hbWU9IkludmFsaWQiIFZhbHVlPSIwIi8+CiAgICAgICAgPG9wYzpFbnVtZXJhdGVkVmFsdWUgTmFtZT0iUHJvZHVjZSIgVmFsdWU9IjEiLz4KICAgICAgICA8b3BjOkVudW1lcmF0ZWRWYWx1ZSBOYW1lPSJNYWludGVuYW5jZSIgVmFsdWU9IjIiLz4KICAgICAgICA8b3BjOkVudW1lcmF0ZWRWYWx1ZSBOYW1lPSJNYW51YWwiIFZhbHVlPSIzIi8+CiAgICA8L29wYzpFbnVtZXJhdGVkVHlwZT4KICAgIDxvcGM6U3RydWN0dXJlZFR5cGUgQmFzZVR5cGU9InVhOkV4dGVuc2lvbk9iamVjdCIgTmFtZT0iQWxhcm1EYXRhVHlwZSI+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0ib3BjOkludDMyIiBOYW1lPSJJRCIvPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9Im9wYzpJbnQzMiIgTmFtZT0iVmFsdWUiLz4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6U3RyaW5nIiBOYW1lPSJNZXNzYWdlIi8+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0ib3BjOkludDMyIiBOYW1lPSJDYXRlZ29yeSIvPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9InVhOlV0Y1RpbWUiIE5hbWU9IkRhdGVUaW1lIi8+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0idWE6VXRjVGltZSIgTmFtZT0iQWNrRGF0ZVRpbWUiLz4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6Qm9vbGVhbiIgTmFtZT0iVHJpZ2dlciIvPgogICAgPC9vcGM6U3RydWN0dXJlZFR5cGU+CiAgICA8b3BjOlN0cnVjdHVyZWRUeXBlIEJhc2VUeXBlPSJ1YTpFeHRlbnNpb25PYmplY3QiIE5hbWU9IkNvdW50RGF0YVR5cGUiPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9Im9wYzpJbnQzMiIgTmFtZT0iSUQiLz4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6SW50MzIiIE5hbWU9IkNvdW50Ii8+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0ib3BjOkludDMyIiBOYW1lPSJBY2NDb3VudCIvPgogICAgPC9vcGM6U3RydWN0dXJlZFR5cGU+CiAgICA8b3BjOlN0cnVjdHVyZWRUeXBlIEJhc2VUeXBlPSJ1YTpFeHRlbnNpb25PYmplY3QiIE5hbWU9IkRlc2NyaXB0b3JEYXRhVHlwZSI+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0ib3BjOkludDMyIiBOYW1lPSJJRCIvPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9Im9wYzpTdHJpbmciIE5hbWU9Ik5hbWUiLz4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJ1YTpFVUluZm9ybWF0aW9uIiBOYW1lPSJVbml0Ii8+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0ib3BjOkZsb2F0IiBOYW1lPSJWYWx1ZSIvPgogICAgPC9vcGM6U3RydWN0dXJlZFR5cGU+CiAgICA8b3BjOlN0cnVjdHVyZWRUeXBlIEJhc2VUeXBlPSJ1YTpFeHRlbnNpb25PYmplY3QiIE5hbWU9IkVxdWlwbWVudEludGVybG9ja0RhdGFUeXBlIj4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6Qm9vbGVhbiIgTmFtZT0iQmxvY2tlZCIvPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9Im9wYzpCb29sZWFuIiBOYW1lPSJTdGFydmVkIi8+CiAgICA8L29wYzpTdHJ1Y3R1cmVkVHlwZT4KICAgIDxvcGM6U3RydWN0dXJlZFR5cGUgQmFzZVR5cGU9InVhOkV4dGVuc2lvbk9iamVjdCIgTmFtZT0iSW5ncmVkaWVudHNEYXRhVHlwZSI+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0ib3BjOkludDMyIiBOYW1lPSJJbmdyZWRpZW50SUQiLz4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6SW50MzIiIE5hbWU9Ik5vT2ZQYXJhbWV0ZXJzIi8+CiAgICAgICAgPG9wYzpGaWVsZCBMZW5ndGhGaWVsZD0iTm9PZlBhcmFtZXRlcnMiIFR5cGVOYW1lPSJ0bnM6RGVzY3JpcHRvckRhdGFUeXBlIiBOYW1lPSJQYXJhbWV0ZXJzIi8+CiAgICA8L29wYzpTdHJ1Y3R1cmVkVHlwZT4KICAgIDxvcGM6U3RydWN0dXJlZFR5cGUgQmFzZVR5cGU9InVhOkV4dGVuc2lvbk9iamVjdCIgTmFtZT0iUHJvZHVjdERhdGFUeXBlIj4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6SW50MzIiIE5hbWU9IlByb2R1Y3RJRCIvPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9Im9wYzpJbnQzMiIgTmFtZT0iTm9PZlByb2Nlc3NWYXJpYWJsZXMiLz4KICAgICAgICA8b3BjOkZpZWxkIExlbmd0aEZpZWxkPSJOb09mUHJvY2Vzc1ZhcmlhYmxlcyIgVHlwZU5hbWU9InRuczpEZXNjcmlwdG9yRGF0YVR5cGUiIE5hbWU9IlByb2Nlc3NWYXJpYWJsZXMiLz4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6SW50MzIiIE5hbWU9Ik5vT2ZJbmdyZWRpZW50cyIvPgogICAgICAgIDxvcGM6RmllbGQgTGVuZ3RoRmllbGQ9Ik5vT2ZJbmdyZWRpZW50cyIgVHlwZU5hbWU9InRuczpJbmdyZWRpZW50c0RhdGFUeXBlIiBOYW1lPSJJbmdyZWRpZW50cyIvPgogICAgPC9vcGM6U3RydWN0dXJlZFR5cGU+CiAgICA8b3BjOlN0cnVjdHVyZWRUeXBlIEJhc2VUeXBlPSJ1YTpFeHRlbnNpb25PYmplY3QiIE5hbWU9IlJlbW90ZUludGVyZmFjZURhdGFUeXBlIj4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6SW50MzIiIE5hbWU9Ik51bWJlciIvPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9Im9wYzpJbnQzMiIgTmFtZT0iQ29udHJvbENtZE51bWJlciIvPgogICAgICAgIDxvcGM6RmllbGQgVHlwZU5hbWU9Im9wYzpJbnQzMiIgTmFtZT0iQ21kVmFsdWUiLz4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6SW50MzIiIE5hbWU9Ik5vT2ZQYXJhbWV0ZXIiLz4KICAgICAgICA8b3BjOkZpZWxkIExlbmd0aEZpZWxkPSJOb09mUGFyYW1ldGVyIiBUeXBlTmFtZT0idG5zOkRlc2NyaXB0b3JEYXRhVHlwZSIgTmFtZT0iUGFyYW1ldGVyIi8+CiAgICA8L29wYzpTdHJ1Y3R1cmVkVHlwZT4KICAgIDxvcGM6U3RydWN0dXJlZFR5cGUgQmFzZVR5cGU9InVhOkV4dGVuc2lvbk9iamVjdCIgTmFtZT0iVmVyc2lvbkRhdGFUeXBlIj4KICAgICAgICA8b3BjOkZpZWxkIFR5cGVOYW1lPSJvcGM6U3RyaW5nIiBOYW1lPSJTcGVjIi8+CiAgICAgICAgPG9wYzpGaWVsZCBUeXBlTmFtZT0ib3BjOlN0cmluZyIgTmFtZT0iT1BDIi8+CiAgICA8L29wYzpTdHJ1Y3R1cmVkVHlwZT4KPC9vcGM6VHlwZURpY3Rpb25hcnk+</uax:ByteString>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" ValueRank="-2" NodeId="ns=1;i=1005" BrowseName="NamespaceUri" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>NamespaceUri</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+        <Value>
+            <uax:String>http://www.siemens.com/AutomationSkills</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="ByteString" NodeId="ns=1;i=1031" BrowseName="1:TypeDictionary" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>TypeDictionary</DisplayName>
+        <Description>Collects the data type descriptions of http://www.siemens.com/AutomationSkills</Description>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">i=92</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=72</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable DataType="String" ValueRank="-2" NodeId="ns=1;i=1033" BrowseName="NamespaceUri" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>NamespaceUri</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+        <Value>
+            <uax:String>http://www.siemens.com/AutomationSkills/Types.xsd</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1034" BrowseName="1:AlarmDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>AlarmDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>AlarmDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1035" BrowseName="1:CountDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>CountDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>CountDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1038" BrowseName="1:DescriptorDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>DescriptorDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>DescriptorDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1039" BrowseName="1:EquipmentInterlockDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>EquipmentInterlockDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>EquipmentInterlockDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1053" BrowseName="1:IngredientsDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>IngredientsDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>IngredientsDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1054" BrowseName="1:ProductDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>ProductDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>ProductDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1055" BrowseName="1:RemoteInterfaceDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>RemoteInterfaceDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>RemoteInterfaceDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1056" BrowseName="1:VersionDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>VersionDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>VersionDataType</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1057" BrowseName="1:AlarmDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>AlarmDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='AlarmDataType']</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1058" BrowseName="1:CountDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>CountDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='CountDataType']</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1059" BrowseName="1:DescriptorDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>DescriptorDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='DescriptorDataType']</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1060" BrowseName="1:EquipmentInterlockDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>EquipmentInterlockDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='EquipmentInterlockDataType']</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1061" BrowseName="1:IngredientsDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>IngredientsDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='IngredientsDataType']</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1062" BrowseName="1:ProductDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>ProductDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='ProductDataType']</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1063" BrowseName="1:RemoteInterfaceDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>RemoteInterfaceDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='RemoteInterfaceDataType']</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=1064" BrowseName="1:VersionDataType" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>VersionDataType</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=1031</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=69</Reference>
+        </References>
+        <Value>
+            <uax:String>//xs:element[@name='VersionDataType']</uax:String>
+        </Value>
     </UAVariable>
 </UANodeSet>
