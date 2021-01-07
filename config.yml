@@ -9,8 +9,9 @@ default:
     username: 'root'
     password: 'root'
     allowAnonymous: false,
+    discoverySerer: 'opc.tcp://Laplace.faps.uni-erlangen.de:48400'
     serverInfo:
-      applicationUri: "http://siemens.com/SkillOPCUA"
+      applicationUri: "http://siemens.com/SkillOPCUA/AddV3"
       productUri: "siemens.com/SP347_Example"
       applicationName: "SP347SkillEngineering@Siemens" 
     serverNodeSet: ["AutomationSkillType_OptionalStateMachine.xml","SkillADD_OptionalStateMachine.xml"]

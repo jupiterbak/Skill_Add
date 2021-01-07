@@ -61,7 +61,9 @@ const server = new opcua.OPCUAServer({
             return false;
         }
     },
-    allowAnonymous: config.server.allowAnonymous
+    allowAnonymous: config.server.allowAnonymous,
+    registerServerMethod: 3, // regsiterservermethod 3 = LDS, regsiterservermethod 2 = mNDS
+    discoveryServerEndpointUrl: config.server.discoverySerer || "opc.tcp://127.0.0.1:4840/UADiscovery"
 });
 
 function post_initialize() {
