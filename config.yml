@@ -9,7 +9,7 @@ default:
     username: 'root'
     password: 'root'
     allowAnonymous: false,
-    discoverySerer: 'opc.tcp://Laplace.faps.uni-erlangen.de:48400'
+    discoverySerer: null # 'opc.tcp://Laplace.faps.uni-erlangen.de:48400'
     serverInfo:
       applicationUri: "http://siemens.com/SkillOPCUA/AddV3"
       productUri: "siemens.com/SP347_Example"
